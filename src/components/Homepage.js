@@ -1,4 +1,6 @@
-
+import Banner from "./Banner"
+import Mission from "./Mission"
+import ClubInfo from "./ClubInfo"
 
 
 export default function Homepage() {
@@ -6,6 +8,10 @@ export default function Homepage() {
 
 
   return (
-    <div><p>Hello World</p></div>
+    <div className="homepage-container">
+      <Banner></Banner>
+      <Mission></Mission>
+      <ClubInfo></ClubInfo>
+    </div>
   )
 }
